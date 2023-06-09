@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+            color: #fff;
+            font-family: sans-serif;
+            box-sizing: border-box;
+            
+        }
+        body{
+            background-color: black;
+            color: #fff;
+        }
+        #top{
+            height: 660px;
+            width: 100%;
+            background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./netflix1back.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            position: relative;
+            
+        }
+        nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 0;
+        }
+        #nameimg{
+            height: 50px;
+            background:transparent;
+            margin-left: 150px;
+        }
+        nav button{
+            border: 0;
+            outline: 0;
+            background: #db0001;
+            color: #fff;
+            padding: 7px 20px;
+            font-size: 12px;
+            border-radius: 4px;
+            margin-left: 10px;
+            cursor: pointer;
+
+        }
+        #btn{
+            margin-right: 150px;
+        }
+        
+        #sign{
+            padding: 11px 15px;
+            /* <i class="fa-solid fa-globe" style="margin-right: 5px;font-size: 20px;"></i> */
+            /* <i class="fa-solid fa-caret-down" style="margin-left: 5px;font-size: 20px;"> */
+        }
+        #drop{
+            background: transparent;
+            padding: 9px 28px;
+            border-radius: 4px;
+            border: 1px solid #fff;
+            color: #fff;
+            cursor: pointer;
+        }
+       #con{
+          color: white;
+          font-size: 48px;
+          
+       }
+       #con1{
+          color: white;
+          font-size: 22px;
+          
+       }
+       #con2{
+          color: white;
+          font-size: 21px;
+       }
+          #startbt{
+              background-color: #db0001;
+              color: #fff;
+              width: 180px;
+              height: 58px;
+              border: none;
+              border-radius: 5px;
+              cursor: pointer;
+              margin-left: 10px;
+          }
+          #in{
+             height: 58px;
+             width: 400px;
+             background-color: rgba(0, 0, 0, 0.272);
+             color: #fff;
+             border: 1px solid white;
+             border-radius: 5px;
+         }
+</style>
+<body>
+    <div id="top">
+        <nav>
+         <img src="./Logonetflixname.jpg" id="nameimg">
+         <div id="btn">
+         
+              <select id="drop">
+                     <optgroup><i class="fa-solid fa-globe" style="margin-right: 5px;font-size: 20px;color: white;"></i>
+                        <option>
+                          English
+                        </option>
+                        <option>
+                         Hindhi
+                        </option>
+                     </optgroup>
+              </select>
+         
+         <button id="sign"><b>Sign In</b></button>
+         </div>
+        </nav>
+        <br><br><br><br><br><br><br>
+        <br><br>
+      <center>  
+         <h1 id="con">
+         Unlimited movies, TV shows and more.</h1>
+         <h3 id="con1">Watch anywhere. Cancel anytime.</h3>
+         <p id="con2">Ready to watch? Enter your email to create or restart your membership.</p>
+         <form>
+         <input type="text" placeholder="Email address" required id="in"><button type="submit" id="startbt"><b style="font-size: 20px;">Get Started ></b></button>
+         </form>
+     </center>
+     </div>
+     <div style="height: 10px;width: 100%;background-color: rgba(0, 0, 0, 0.468);">
+ 
+     </div>
+    
+</body>
+</html>
